@@ -11,4 +11,6 @@ public class DataContext : DbContext
     }
 
     public DbSet<Author> Authors { get; set; } = null!;
+    public DbSet<Category> Categories { get; set; } = null!;
+    public DbSet<Book> Books { get; set; } = null!;
 }
